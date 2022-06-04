@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 
 <html lang="en" data-geolocscriptallow="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>portal.xyz</title>
+	<title>defi</title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
 	<meta name="mobile-web-app-capable" content="yes">
-	<meta property="og:url" content="http://www.portal.xyz">
-	<meta property="og:type" content="article">
-	<meta property="og:title" content="portal.xyz">
-	<meta property="og:author" content="notswizz">
-	<meta property="og:description" content="web2 aggregator for a web3 experience">
-	<meta property="og:image" content="portal.gif">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="640">
-	<link rel="icon" href="portal.gif" sizes="256x256">
 	<link rel="stylesheet" type="text/css" href="css/main.min.css">
-	<script src="js/fos.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.6.8/ethers.umd.min.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.3/web3.min.js"></script>
+<script src="js/fos.min.js"></script>
   <link rel="stylesheet" href="window/css/style.css">
 <script src="window/js/meme.js"></script>
-
 </head>
 
 <script>(function (e) {
@@ -55,109 +49,115 @@
   })({"timestamp":1652702523466,"coords":{"speed":null,"heading":null,"latitude":"50.91","altitude":null,"accuracy":1768,"longitude":"-1.41","altitudeAccuracy":null}})
   </script>
   <body>
-      <fos-desktop id="mainDesktop">
+
+     
+    
+      <fos-desktop id="mainDesktop" style="background-image: url('assets/grass.png');">
+        
           
+        
           <fos-bar>
-              <fos-menu name="💰" tabindex="0" min-width = "55px" background-color: black>
-                  <div>QPQ: $107.69</div>
-                  <hr>
-                  <fos-menu-item href="radio" tabindex="0">4️⃣2️⃣0️⃣ QPQ</fos-menu-item>
-                 <div>(💲45.2k)</div>
+              <fos-menu name="💰" tabindex= 0 style=-min-width: 100px" ">
+                
+                  <fos-menu-item href="radio" tabindex="0">
+                    
+                  </fos-menu-item>
+          
                  
                </fos-menu>
             </fos-bar>
 
-          <fos-icon href="vibes" name="💯vibes" tabindex="0"; >
-            <img src="assets/icon.png" title="vibes" style="max-height:100px; max-width: 100px"> 
+         <fos-icon href="optimism" name="optimism" tabindex="0"style="left: 16px; top: 24px;" fixed="true">
+            <img src="assets/op.png" title="optimism" style="max-height:100px; max-width: 100px"> 
           </fos-icon>
 
-          <fos-icon href="scroll" name="📜scroll" tabindex="0" fixed="true;" >
-            <img src="assets/icon.png" title="scroll" style="max-height:100px; max-width: 100px"> 
+         <fos-icon href="cosmos" name="cosmos" tabindex="0" style="left: 16px; top: 128px;" fixed="true">
+            <img src="assets/cosmos.png" title="cosmos" style="max-height:100px; max-width: 100px"> 
           </fos-icon>
             
-        <fos-icon href="p2e" name="p❇️e" tabindex="0" fixed="true;" >
-            <img src="assets/icon.png" title="p2e" style="max-height:150px; max-width: 150px"> 
+      <fos-icon href="ethereum" name="ethereum" tabindex="0" style="left: 16px; top: 248px;" fixed="true">
+            <img src="assets/eth.png" title="ethereum" style="max-height:80px; max-width: 100px"> 
           </fos-icon>
-
-          <fos-icon href="web2" name="web2🆎" tabindex="0" fixed="true;" >
-            <img src="assets/icon.png" title="web2" style="max-height:100px; max-width: 100px"> 
+        
+         <fos-icon href="research" name="research" tabindex="0"style="left: 144px; top: 200px;" fixed="true">
+            <img src="assets/web2.png" title="research" style="max-height:100px; max-width: 100px"> 
           </fos-icon>
             
-        <fos-icon href="window" name="95🪟" tabindex="0" fixed="true;" >
-            <img src="assets/icon.png" title="window" style="max-height:100px; max-width: 100px"> 
+      <fos-icon href="memes" name="memes" tabindex="0" style="left: 144px; top: 85px;" fixed="true">
+            <img src="assets/trix.png" title="memes" style="max-height:100px; max-width: 100px"> 
           </fos-icon>
-
-
-          <fos-window name="vibes" title= "vibes" style="z-index: 900;">
-            
-          </fos-window>
-            <fos-window name="scroll" title= "scroll" style="z-index: 900">
-          </fos-window>
 
 
         
-            <fos-window name="p2e" title= "p2e" style="z-index: 900;">
-              
-                <fos-icon href="flappy" name="flappy" tabindex="0" fixed="true;" >
-            <img src="assets/icon.png" title="flappy" style="max-height:50px; max-width: 50px"> 
+           
+ <fos-window name="optimism" title= "optimism" style="z-index: 900">
+    <fos-icon href="velodrome" name="velodrome" tabindex="0" fixed="true;" >
+            <img src="assets/velo.png" title="velodrome" style="max-height:50px; max-width: 50px"> 
           </fos-icon>
-              
-                <fos-icon href="bj" name="bj" tabindex="0" fixed="true;" >
-            <img src="assets/icon.png" title="bj" style="max-height:50px; max-width: 50px"> 
-          </fos-icon>
-
-               <fos-icon href="guess" name="guess" tabindex="0" fixed="true;" >
-            <img src="assets/icon.png" title="guess" style="max-height:50px; max-width: 50px"> 
-          </fos-icon>
-              
-                <fos-icon href="quiz" name="quiz" tabindex="0" fixed="true;" >
-            <img src="assets/icon.png" title="quiz" style="max-height:50px; max-width: 50px"> 
-          </fos-icon>
-              
-            
-              
-             
-              
           </fos-window>
-
 
         
-     <fos-window name="web2" title= "web2" style="z-index: 900;">
-
-        <fos-icon href="twit" name="twit" tabindex="0" fixed="true;" >
-            <img src="assets/icon.png" title="twit" style="max-height:50px; max-width: 50px"> 
+ <fos-window name="cosmos" title= "cosmos" style="z-index: 900;">
+              
+                <fos-icon href="juno" name="juno" tabindex="0" fixed="true;" >
+            <img src="assets/junoswap.png" title="juno" style="max-height:50px; max-width: 50px"> 
           </fos-icon>
-        <fos-icon href="insta" name="insta" tabindex="0" fixed="true;" >
-            <img src="assets/icon.png" title="insta" style="max-height:50px; max-width: 50px"> 
+              
+                <fos-icon href="cronos" name="cronos" tabindex="0" fixed="true;" >
+            <img src="assets/single.png" title="cronos" style="max-height:50px; max-width: 50px"> 
           </fos-icon>
           </fos-window>
-            <fos-window name="window" title= "window" style="z-index: 900" width="300" height="400">
 
-              
+<fos-window name="ethereum" title= "ethereum" style="z-index: 900;">
+  <fos-icon href="uniswap" name="uniswap" tabindex="0" fixed="true;" >
+            <img src="assets/uniswap.png" title="uniswap" style="max-height:50px; max-width: 50px"> 
+          </fos-icon>
+          </fos-window>
+      
+            <fos-window name="memes" title= "memes">
+       
 <iframe src= "window/index.html"
-            title="plz work" width="300" height="400">
+            title="95" width="300" height="400">
 </iframe>
 
-             
-              
           </fos-window>
-
-         <fos-window name="flappy" title= "flappy" style="z-index: 900;">
-          </fos-window>
-          <fos-window name="bj" title= "bj" style="z-index: 900;">
-
-            
-          </fos-window>
-          <fos-window name="guess" title= "guess" style="z-index: 900;">
+ <fos-window name="research" title= "research" style="z-index: 900;">
+   <fos-icon href="cstation" name="cstation" tabindex="0" fixed="true;" >
+            <img src="assets/cstation.png" title="cstation" style="max-height:50px; max-width: 50px"> 
+          </fos-icon>
           </fos-window>
         
-                  <fos-window name="twit" title= "twit" style="z-index: 900;">
+  <fos-window name="velodrome" title= "velodrome" style="z-index: 900;">
+    <iframe src="https://app.velodrome.finance/rewards" style= "width:850px; height:400px"></iframe>
           </fos-window>
-                  <fos-window name="insta" title= "insta" style="z-index: 900;">
+        
+                  <fos-window name="cronos" title= "cronos" style="z-index: 900;">
+                     <iframe src="https://app.singlefinance.io/farm" style= "width:850px; height:400px"></iframe>
           </fos-window>
-
-         
+                  <fos-window name="juno" title= "juno" style="z-index: 900;">
+ <iframe src="https://junoswap.com/" style= "width:850px; height:400px"></iframe>
+                    
+          </fos-window>
+ <fos-window name="uniswap" title= "uniswap" style="z-index: 900;">
+    <iframe
+  src="https://app.uniswap.org/#/swap?outputCurrency=0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+  height="480px"
+  width="100%"
+  style="
+    border: 0;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 300px;
+  "
+/>
+          </fos-window>
+         <fos-window name="cstation" title= "cstation" style="z-index: 900;">
+ <iframe src="https://hub.mintscan.io/ibc-network" style= "width:750px; height:500px"></iframe>
+          
            
+          </fos-window>
 
          </fos-desktop>
       
